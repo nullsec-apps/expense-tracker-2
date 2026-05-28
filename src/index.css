@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { font-family: 'Outfit', sans-serif; }
+body { background: #F5F5F7; color: #1D1D1F; -webkit-font-smoothing: antialiased; }
+.font-display { font-family: 'Schibsted Grotesk', sans-serif; }
+.glass { background: rgba(255,255,255,0.7); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px); }
+::-webkit-scrollbar { width: 8px; height: 8px; }
+::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.12); border-radius: 8px; }
+::-webkit-scrollbar-track { background: transparent; }
